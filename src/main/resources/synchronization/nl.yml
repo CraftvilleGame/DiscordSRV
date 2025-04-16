@@ -9,6 +9,8 @@
 # %username%:              gebruikersnaam van de speler
 #                           voorbeeld: Jeb_
 # %discord_name%:          de discord-gebruikersnaam van de speler
+#                           voorbeeld: jeb
+# %discord_displayname%:   de discord-naam van de speler
 #                           voorbeeld: Jeb
 # %discord_discriminator%: discord-discriminator van de speler
 #                           voorbeeld: 4988
