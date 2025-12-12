@@ -139,6 +139,7 @@ public class NicknameUpdater extends Thread {
                     .replace("%displayname%", player.getDisplayName() != null ? player.getDisplayName() : player.getName())
                     .replace("%username%", player.getName())
                     .replace("%discord_name%", member.getUser().getName())
+                    .replace("%discord_displayname%", member.getEffectiveName())
                     .replace("%discord_discriminator%", member.getUser().getDiscriminator());
 
             nickname = PlaceholderUtil.replacePlaceholders(nickname, player);
